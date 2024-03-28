@@ -1,0 +1,47 @@
+name: aalok_s_application3
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  connectivity_plus: ^5.0.2
+  shared_preferences: ^2.2.2
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  equatable: ^2.0.5
+  google_sign_in: ^5.0.7
+  pin_code_fields: ^8.0.1
+  flutter_svg_provider: ^1.0.7
+  sms_autofill: ^2.3.0
+  dio: ^5.4.0
+  fluttertoast: ^8.2.4
+  permission_handler: ^11.1.0
+  images_picker: ^1.2.11
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Overpass
+      fonts: 
+        - asset: assets/fonts/OverpassMedium.ttf
+          weight: 500
+        - asset: assets/fonts/OverpassBold.ttf
+          weight: 700
+        - asset: assets/fonts/OverpassRegular.ttf
+          weight: 400
+        - asset: assets/fonts/OverpassRomanSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/OverpassExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/OverpassSemiBold.ttf
+          weight: 600
